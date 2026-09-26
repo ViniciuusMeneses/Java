@@ -1,7 +1,24 @@
+import java.util.Scanner;
 class Main {
 
     public void main() {
-        quarto q = new quarto(101, "casal", 250);
+        int numero;
+        String tipo;
+        double valor;
+
+        //quarto q = new quarto(101, "casal", 250);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite o numero do quarto? ");
+        numero =  sc.nextInt();
+        sc.nextLine();
+        System.out.println("Digite o tipo do quarto? ");
+        tipo = sc.nextLine();
+        System.out.println("Digite o valor do quarto? ");
+        valor = sc.nextDouble();
+
+        quarto q = new quarto(numero, tipo, valor);
+
         q.exibir();
 
     }
