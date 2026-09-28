@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Saldo da conta 1:");
         double saldo1 = sc.nextDouble();
 
-        sc.nextLine();   // sacrifício: limpa o Enter que sobrou do nextDouble
+        sc.nextLine();  
 
         System.out.println("Nome da conta 2:");
         String nome2 = sc.nextLine();
@@ -51,8 +51,8 @@ class contaBancaria {
 
     public void transferir(contaBancaria destino, double valor) {
         if (this.saldo >= valor) {
-            this.saldo = this.saldo - valor;          // quem chama PERDE
-            destino.saldo = destino.saldo + valor;    // o destino GANHA
+            this.saldo = this.saldo - valor;          
+            destino.saldo = destino.saldo + valor;    
         } else {
             System.out.println("Saldo insuficiente na conta de " + this.nome);
         }
