@@ -1,4 +1,4 @@
-class main {
+class Main {
     public static void main(String[] args) {
         prestador p1 = new prestador("Vinicius");
         prestador p2 = new prestador("Vinicius", "Robotica", 150);

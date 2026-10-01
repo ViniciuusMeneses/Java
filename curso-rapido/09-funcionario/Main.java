@@ -1,4 +1,4 @@
-class main{
+class Main {
 
     public void main(){
 
