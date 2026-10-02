@@ -1,6 +1,6 @@
 # Java
 
-Meus estudos de Java: exercícios de Programação 2 no CESUPA e de um curso rápido de Java. Cada exercício fica numa pasta própria, com um `Main.java`.
+Meus estudos de Java: exercícios de Programação 2 no CESUPA e desafios de Java. Cada exercício fica numa pasta própria, com um `Main.java`.
 
 ## Como rodar
 
