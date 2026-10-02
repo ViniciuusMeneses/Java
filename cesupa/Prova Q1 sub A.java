@@ -24,21 +24,21 @@ class curso{
         return vagas;
     }
     public void setnome(String nome){
-        if(nome.length()<3){
-        this.nome = nome;}
+        if(nome.length()>=3){
+            this.nome = nome;}
     }
     public void setcargaHoraria(int cargaHoraria){
         if(cargaHoraria>=10 && cargaHoraria<=200){
-        this.cargaHoraria = cargaHoraria;}
+            this.cargaHoraria = cargaHoraria;}
     }
     public void setvagas(int vagas){
         if(vagas>=1 && vagas<=40){
-        this.vagas = vagas;}
+            this.vagas = vagas;}
     }
     public curso(String nome, int cargaHoraria, int vagas){
-        this.nome = nome;
-        this.cargaHoraria = cargaHoraria;
-        this.vagas = vagas;
+        setnome(nome);
+        setcargaHoraria(cargaHoraria);
+        setvagas(vagas);
     }
     public curso(){
         this.nome = "";
