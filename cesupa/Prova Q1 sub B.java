@@ -37,7 +37,7 @@ class Turma {
         this.idMinima = idMinima;}
     }
     public void setVagas(int vagas){
-        if( 16 > vagas && vagas > 6 ){
+        if( 16 > vagas && vagas > 5 ){
         this.vagas = vagas;}
     }
     public void setMensalidade(double mensalidade){
