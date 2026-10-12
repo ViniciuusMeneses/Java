@@ -43,7 +43,7 @@ public class Veiculos {
 
     public void setValor() {
         int h = this.horarioSaida - this.horarioEntrada;
-        this.valor = 7;
+        this.valor = 8;
         for(int i = 60; i < h; i += 60){
             this.valor += 4;
         }
