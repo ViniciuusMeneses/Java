@@ -24,7 +24,7 @@ public class Veiculos {
                     return;
                 }
             }
-            boolean pos4ok = Character.isLetter(c[4]) || Character.isDigit(c[4]);
+            boolean pos4ok = Character.isLetter(c[4]) || Character.isDigit(c[4]); // só para não colocarem um simbolo
             if( Character.isDigit(c[3]) && pos4ok && Character.isDigit(c[5]) && Character.isDigit(c[6]) ){
                 this.placa = placa;
             } else {
