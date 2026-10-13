@@ -14,4 +14,4 @@ public class Desafio19 {
 
         System.out.println("Maior int: " + Integer.MAX_VALUE);
     }
-}
+} 
