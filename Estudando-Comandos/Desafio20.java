@@ -9,7 +9,7 @@ public class Desafio20 {
             System.out.print("Divisor: ");
             int b = sc.nextInt();
 
-            int resultado = a / b; // pode lancar ArithmeticException
+            int resultado = a / b; // pode lancar ArithmeticException 
             System.out.println("Resultado: " + resultado);
         } catch (ArithmeticException e) {
             System.out.println("Erro: nao divida por zero!");
