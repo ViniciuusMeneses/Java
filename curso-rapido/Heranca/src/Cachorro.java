@@ -1,2 +1,4 @@
-public class Cachorro {
+package animais;
+
+public class Cachorro extends Animal {
 }
