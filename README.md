@@ -36,3 +36,4 @@ java Main.java
 | [11-prestador-de-servico](curso-rapido/11-prestador-de-servico) | Sobrecarga de construtor e objeto como parâmetro |
 | [12-conta-bancaria](curso-rapido/12-conta-bancaria) | Encapsulamento e transferência de saldo entre dois objetos |
 | [13-revisao-geral](curso-rapido/13-revisao-geral) | Revisão: herança e polimorfismo (funcionário e gerente), composição (carro e motor, turma e professor) e matriz |
+| [14-praticando-heranca](curso-rapido/14-praticando-heranca) | Lista de 6 exercícios de herança com gabarito: `extends`, `super`, sobrescrita, polimorfismo, classe abstrata e `instanceof` |
