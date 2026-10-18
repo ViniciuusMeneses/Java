@@ -1,24 +1,23 @@
 package veiculos;
 
 public class carro extends veiculo {
-    private short numeroPortas;
+    private int numeroPortas;
 
-    public short getNumeroPortas() {
+    public int getNumeroPortas() {
         return numeroPortas;
     }
 
-    public void setNumeroPortas(short numeroPortas) {
+    public void setNumeroPortas(int numeroPortas) {
         this.numeroPortas = numeroPortas;
     }
 
-    public void imprimir(){
-        System.out.println(getMarca() + "de" + getNumeroPortas() + "Portas: bi bi! ");
+    public void buzina(String marca){
+        System.out.println(marca + " de " + getNumeroPortas() + " Portas: bi bi! ");
     }
 
-    public carro(String marca, int ano){
-        super(marca);
-        super(ano);
-
+    public carro(int numeroPortas){
+        super(veiculo);
+        this.numeroPortas = numeroPortas;
 
     }
 
