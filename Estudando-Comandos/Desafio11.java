@@ -11,5 +11,6 @@ public class Desafio11 {
 
         int dado = (int) (Math.random() * 6) + 1; // 1 a 6
         System.out.println("Dado sorteado: " + dado);
+        
     }
 }
