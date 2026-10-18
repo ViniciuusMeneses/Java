@@ -8,7 +8,7 @@ public class Desafio12 {
 
         int soma = 0;
         int maior = numeros[0];
-        for (int n : numeros) {       // for-each
+        for (int n : numeros) {
             soma += n;
             if (n > maior) maior = n;
         }
