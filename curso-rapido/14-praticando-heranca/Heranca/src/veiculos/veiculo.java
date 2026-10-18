@@ -4,7 +4,14 @@ public class veiculo {
     private String marca;
     private int ano;
 
-    public veiculo(String marca) {
+
+    public veiculo(String marca, int ano) {
+        this.marca = marca;
+        this.ano = ano;
+    }
+
+    public String getMarca() {
+        return marca;
     }
 
     public void setMarca(String marca) {
@@ -16,7 +23,7 @@ public class veiculo {
     }
 
 
-    public void imprimir(){
-        System.out.println( marca + " (" + ano + ") ");
+    public void imprimir() {
+        System.out.println(marca + " (" + ano + ")");
     }
 }
