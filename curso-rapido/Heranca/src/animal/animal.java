@@ -16,6 +16,10 @@ public abstract class animal {
     public abstract void fazerBarulho();
     public abstract void comer();
 
+    public String toString(){
+        return "nome: " + getNome() + "peso: " + getPeso();
+    }
+
     public String getNome() {
         return nome;
     }
