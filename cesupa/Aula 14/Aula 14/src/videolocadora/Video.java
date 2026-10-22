@@ -6,7 +6,7 @@ public abstract class Video extends Midia{
 
     public Video(String titulo, String duracao, String qualidade){
         super(titulo, duracao);
-        this.qualidade = qualidade;
+        setQualidade(qualidade);
     }
 
     public void acrecimoQualidade(String qualidade){
