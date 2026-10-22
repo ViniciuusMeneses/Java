@@ -2,10 +2,12 @@ package videolocadora;
 
 public class Filme extends Video{
 
-
-
     public Filme(String titulo, String duracao, String qualidade){
         super(titulo, duracao, qualidade);
+    }
+
+    public void treiler(){
+        System.out.println("Treiler");
     }
 
     @Override
