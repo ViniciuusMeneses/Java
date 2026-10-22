@@ -7,8 +7,8 @@ public abstract class Midia {
     public double valor = 0;
 
     public Midia(String titulo, String duração){
-        this.titulo = titulo;
-        this.duração = duração;
+        setTitulo(titulo);
+        setDuração(duração);
     }
 
     public abstract void calcularPreco();
