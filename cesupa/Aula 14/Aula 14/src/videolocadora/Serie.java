@@ -9,6 +9,10 @@ public class Serie extends Video{
         setTemporadas(temporadas);
     }
 
+    public void listaTempordas(){
+        System.out.println("Numero de temporadas");
+    }
+
     @Override
     public void calcularPreco() {
         setValor(getValor() + (5 * getTemporadas()));
