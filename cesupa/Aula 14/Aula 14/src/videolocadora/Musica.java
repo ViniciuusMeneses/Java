@@ -1,4 +1,4 @@
-import videolocadora.Midia;
+package videolocadora;
 
 public class Musica extends Midia {
 
